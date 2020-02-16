@@ -93,7 +93,7 @@ module.exports = {
       webdriver: {
         start_process: true,
         port: 9516,
-        server_path: "/node_modules/chromedriver/lib/chroemdriver/chromedriver", // (Services.chromedriver ? Services.chromedriver.path : ''),
+        server_path: "./node_modules/chromedriver/lib/chroemdriver/chromedriver", // (Services.chromedriver ? Services.chromedriver.path : ''),
         cli_args: [
           // --verbose
           "--port=9516"
