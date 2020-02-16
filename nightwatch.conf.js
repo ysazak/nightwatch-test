@@ -34,7 +34,8 @@ module.exports = {
       },
 
       desiredCapabilities: {
-        browserName : 'chrome'
+        browserName : 'firefox',
+        acceptSslCerts: true,
       },
 
       webdriver: {
@@ -92,7 +93,7 @@ module.exports = {
 
       webdriver: {
         start_process: true,
-        port: 9516,
+        port: 9515,
         server_path: "./node_modules/chromedriver/lib/chroemdriver/chromedriver", // (Services.chromedriver ? Services.chromedriver.path : ''),
         cli_args: [
           // --verbose
