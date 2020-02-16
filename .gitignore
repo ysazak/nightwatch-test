@@ -2,8 +2,9 @@
 *.DS_Store
 *.idea
 /*.log
+/reports/*.*
 /nightwatch.json
-/nightwatch.conf.js
+# /nightwatch.conf.js
 node_modules
 npm-debug.log
 lib-cov
