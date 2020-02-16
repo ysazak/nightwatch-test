@@ -41,7 +41,8 @@ module.exports = {
       webdriver: {
         start_process: true,
         port: 9515,
-        server_path: 'D:\\a\\1\\s\\node_modules\\chromedriver\\lib\\chromedriver\\chromedriver.exe', //(Services.chromedriver ? Services.chromedriver.path : ''),
+        server_path: '.\\node_modules\\chromedriver\\lib\\chromedriver.exe', //(Services.chromedriver ? Services.chromedriver.path : ''),
+        //server_path: (Services.chromedriver ? Services.chromedriver.path : ''),
         cli_args: [
           // --verbose
         ]
