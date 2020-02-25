@@ -1,1 +1,1 @@
-# nightwatch-test
+# SuitSupply E2E Test Automation

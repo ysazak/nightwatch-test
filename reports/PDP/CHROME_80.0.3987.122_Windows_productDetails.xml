@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="PDP.productDetails"
+    errors="0" failures="0" hostname="" id="" package="PDP" skipped="0"
+    tests="1" time="4.178" timestamp="">
+  
+    <testcase name="Product Details" classname="PDP.productDetails" time="4.178" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
