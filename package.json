@@ -6,8 +6,6 @@
   "scripts": {
     "start": "npm run test",
     "test": "nightwatch",
-    "test:ci": "npm run build && nightwatch -e default",
-    "test:local": "npm run build && nightwatch -e local",
     "debug": "node --inspect-brk node_modules/nightwatch/bin/nightwatch"
   },
   "author": "",
